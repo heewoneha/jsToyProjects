@@ -1,0 +1,70 @@
+*{margin: 0px; padding: 0px;}
+ul{
+	list-style:none;
+}
+
+a{
+	text-decoration: none;
+}
+
+header{
+	width: 900px;
+	height:76px;
+	background-color:#181a33;
+	position: relative;
+}
+
+#logo{
+	position:absolute;
+	left:40px;
+	top:13px;
+}
+
+.topMenu{
+	position: absolute;
+	top: 20px;
+	right:55px;
+	color: white;
+	font-size: 18px;
+	font-family: papyrus,Arial;
+}
+
+.topMenu a{color: white; margin-left: 40px; }
+
+.imgs{
+	font-size:6px;
+	color:#b1b1b1;
+}
+
+/*레이아웃*/
+#middle{
+	overflow:hidden;
+}
+#top{
+	width:900px;
+	background:#f3f3f3;
+	font-family: '굴림';
+}
+#bottom{
+	width:900px;
+	overflow:hidden;
+	font-family: '바탕';
+	margin-bottom:5px;
+}
+#left{
+	float:left; width:550px;
+	background-image:url('layout2.jpg');
+	font-weight: bold;
+}
+#right{
+	float:right; width:350px;
+}
+
+/*back_two는 빗금무늬 배경이 아니라 가운데에 위치한 회색 배경*/
+#back_two{
+	width: 900px;
+	background-color:#f3f3f3;
+	height:800px;
+}
+
+#page{width: 820px;margin:0px auto;}

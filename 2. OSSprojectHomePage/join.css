@@ -1,0 +1,47 @@
+*{margin: 0px; padding: 0px;}
+ul{
+	list-style:none;
+}
+
+a{
+	text-decoration: none;
+}
+
+header{
+	width: 900px;
+	height:76px;
+	background-color:#181a33;
+	position: relative;
+}
+
+#logo{
+	position:absolute;
+	left:40px;
+	top:13px;
+}
+
+#topMenu{
+	position: absolute;
+	top: 20px;
+	right:55px;
+	color: white;
+	font-size: 18px;
+	font-family: papyrus,Arial;
+}
+
+#topMenu a{color: white; margin-left: 40px; }
+
+/*로그인 칸*/
+#heeJoin{
+	padding-top:50px;
+	width:900px;
+	height:800px;
+	background-color:#f3f3f3;
+}
+
+table{
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#page{width: 820px;margin:0px auto;}

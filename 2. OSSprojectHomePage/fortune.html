@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang = "ko">
+<head>
+	<meta charset = "utf-8">
+	<title>heering - today's fortune</title>
+	<style>
+		body{
+			background-image:url('background.png');
+		}
+	</style>
+	<link rel="stylesheet" href="fortune.css">
+</head>
+<body>
+	<div id="page">
+	<header>
+		<div id = "logo">
+			<a href = "main.html"><image src="logo.png" alt="logo"></image></a>
+		</div>
+		<div id = "topMenu">
+			<a href = "login.html">Login</a>
+			<a href = "join.html">Sign-Up</a>
+			<a href= "information.html">Profile</a>
+			<a href= "board.html">Board</a>
+			<a href="fortune.html" style="text-shadow: 3px 3px 3px #ffffff">Today's Fortune</a>
+		</div>
+	</header>
+	
+    <div class="backTwo">
+		<br>
+		<p align="center">
+        <p1>반가워요! 희링 쥬얼리는 고객님이 오늘도 행복하셨으면 좋겠어요.</p1><br>
+		<p2>아래 포춘쿠키를 열어 오늘의 운세를 확인하고, 행운의 보석도 확인해보세요! :)</p2>
+		<br><br>
+		<img src="cookie.png" alt="cookie">
+		</p>
+		<div class="button" onclick="todayFortune()"><ins>클릭!</ins></div>
+		<p id="clock"></p>
+	</div>
+	<script src="fortune.js"></script> <!--자바스크립트 파일 연동-->
+</body>
+</html>

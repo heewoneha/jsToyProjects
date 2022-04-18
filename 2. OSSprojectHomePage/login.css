@@ -1,0 +1,52 @@
+*{margin: 0px; padding: 0px;}
+ul{
+	list-style:none;
+}
+
+a{
+	text-decoration: none;
+}
+
+header{
+	width: 900px;
+	height:76px;
+	background-color:#181a33;
+	position: relative;
+}
+
+#logo{
+	position:absolute;
+	left:40px;
+	top:13px;
+}
+
+#top_menu{
+	position: absolute;
+	top: 20px;
+	right:55px;
+	color: white;
+	font-size: 18px;
+	font-family: papyrus,Arial;
+}
+
+#top_menu a{color: white; margin-left: 40px; }
+
+table{
+	margin-left:auto;
+	margin-right:auto;
+}
+
+/*빗금무늬 레이어 위 회색 배경*/
+#heeLogin{
+	padding-top:50px;
+	width:900px;
+	height:800px;
+	background-color:#f3f3f3;
+}
+
+#page{width: 820px;margin:0px auto;}
+
+/*하이퍼링크 마우스 갖다대면 색 변함*/
+a:hover{
+	color:palevioletred;
+}

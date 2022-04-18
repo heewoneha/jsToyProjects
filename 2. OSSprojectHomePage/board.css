@@ -1,0 +1,76 @@
+*{margin: 0px; padding: 0px;}
+ul{
+	list-style:none;
+}
+
+a{
+	text-decoration: none;
+}
+
+header{
+	width: 900px;
+	height:76px;
+	background-color:#181a33;
+	position: relative;
+}
+
+#logo{
+	position:absolute;
+	left:40px;
+	top:13px;
+}
+
+#topMenu{
+	position: absolute;
+	top: 20px;
+	right:55px;
+	color: white;
+	font-size: 18px;
+	font-family: papyrus,Arial;
+}
+
+#topMenu a{color: white; margin-left: 40px; }
+
+#backTwo{
+	width: 900px;
+	background-color:#f3f3f3;
+	height:800px;
+}
+
+#board{
+	margin-bottom:20px;
+	margin-top:50px;
+}
+
+#numbers{
+	margin-top:10px;
+	margin-bottom:40px;
+}
+
+#write{
+	/*colorzilla 이용*/
+	background: rgb(255,255,255);
+	background: -moz-linear-gradient(-45deg,  rgba(255,255,255,1) 0%, rgba(241,241,241,1) 50%, rgba(225,225,225,1) 51%, rgba(246,246,246,1) 100%);
+	background: -webkit-linear-gradient(-45deg,  rgba(255,255,255,1) 0%,rgba(241,241,241,1) 50%,rgba(225,225,225,1) 51%,rgba(246,246,246,1) 100%);
+	background: linear-gradient(135deg,  rgba(255,255,255,1) 0%,rgba(241,241,241,1) 50%,rgba(225,225,225,1) 51%,rgba(246,246,246,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#f6f6f6',GradientType=1 );
+
+	padding-top:50px;
+	padding-bottom:105px;
+}
+
+table{
+	text-align:center;
+	margin-left:auto;
+	margin-right:auto;
+	border-spacing:1px;
+	line-height:1.5;
+}
+table th{
+	padding:10px;
+	font-weight: bold;
+	vertical-align:top;
+	background:#fd8ec58e;
+}
+
+#page{width: 820px;margin:0px auto;}

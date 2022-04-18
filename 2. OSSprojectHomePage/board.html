@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang = "ko">
+<head>
+	<meta charset = "utf-8">
+	<title>heering - board</title>
+	<style>
+		body{
+			background-image:url('background.png');
+		}
+	</style>
+	<script>
+		function secret (){
+			alert('비공개 게시글입니다.');
+		}
+	</script>
+	<link rel="stylesheet" href="board.css">
+</head>
+<body>
+	<div id="page">
+	<header>
+		<div id = "logo">
+			<a href = "main.html"><image src="logo.png" alt="logo"></image></a>
+		</div>
+		<div id = "topMenu">
+			<a href = "login.html">Login</a>
+			<a href = "join.html" >Sign-Up</a>
+			<a href= "information.html" >Profile</a>
+			<a href= "board.html" style="text-shadow: 3px 3px 3px #ffffff">Board</a>
+			<a href="fortune.html">Today's Fortune</a>
+		</div>
+	</header>
+	<div id="backTwo"><br>
+		<p id="board">
+			<h1 align="center">&lt;게시판&gt;</h1>
+		<br>
+		<table class="act" width= 700px bgcolor=white align="center">
+			<thread>
+				<tr align="center">
+					<th>게시물 번호</th>
+					<th>제목</th>
+					<th>작성자</th>
+					<th>작성일</th>
+					<th>공개여부</th>
+				</tr>
+			</thread>
+			<tbody>
+				<tr align="center">
+					<td><input type="checkbox" name="checkbox" value="checkbox"> 5</td>
+					<td><a href="#">사전 제공받은 후기!!!</a></td>
+					<td>누군가</td>
+					<td>2021.06.16</td>
+					<td>공개</td>
+				</tr>
+
+				<tr align="center">
+					<td><input type="checkbox" name="checkbox" value="checkbox"> 4</td>
+					<td><a href="#">정식 오픈일 안내</a></td>
+					<td>관리자</td>
+					<td>2021.06.15</td>
+					<td>공개</td>
+				</tr>
+
+				<tr align="center">
+					<td><input type="checkbox" name="checkbox" value="checkbox"> 3</td>
+					<td><a href="#">★2021 오픈 기념 행사 일정★</a></td>
+					<td>관리자</td>
+					<td>2021.06.15</td>
+					<td>공개</td>
+				</tr>
+				<tr align="center">
+					<td><input type="checkbox" name="checkbox" value="checkbox"> 2</td>
+					<td><a href="#" onclick="secret()">구매 언제 될까요?</a></td>
+					<td>홍길동</td>
+					<td>2021.06.13</td>
+					<td>비공개</td>
+				</tr>
+				<tr align="center">
+					<td><input type="checkbox" name="checkbox" value="checkbox"> 1</td>
+					<td><a href="#" onclick="secret()">test</a></td>
+					<td>관리자</td>
+					<td>2021.06.12</td>
+					<td>비공개</td>
+				</tr>
+			</tbody>
+		</table>
+		</p>
+		<p align="center" id="numbers"> <!--수정 및 삭제 구역-->
+			<a href="#">1</a>
+			<br><br>
+				<button type="button">수정</button>
+				<button type="button">삭제</button>
+		</p>
+	
+		<hr>
+		
+		<p align="center" id="write"> <!--글쓰기 구역-->
+			<input type="file">
+			<button type="submit">글 올리기</button><br>
+			<input type="radio" name="secret">공개&nbsp;
+			<input type="radio" name="secret">비공개&nbsp;
+			/&nbsp;이름:&nbsp;<input type="text" name="id" disabled placeholder="로그인하세요"><br><br>
+			<textarea cols="45" rows="10" placeholder="사진후기를 써주시면 확인 후 1000p를 드려요!"></textarea><br>
+		</p>
+	</div>
+</body>
+</html>

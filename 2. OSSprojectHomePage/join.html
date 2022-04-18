@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang = "ko">
+	<head>
+		<meta charset = "utf-8">
+		<title>heering - join</title>
+		<style>
+			body{
+				background-image:url('background.png');
+			}
+		</style>
+		<link rel="stylesheet" href="join.css">
+	</head>
+	<body>
+		<div id="page">
+		<header>
+			<div id = "logo">
+				<a href = "main.html"><image src="logo.png" alt="logo"></image></a>
+			</div>
+			<div id = "topMenu">
+				<a href = "login.html">Login</a>
+				<a href = "join.html" style="text-shadow: 3px 3px 3px #ffffff">Sign-Up</a>
+				<a href= "information.html">Profile</a>
+				<a href= "board.html">Board</a>
+				<a href="fortune.html">Today's Fortune</a>
+			</div>
+		</header>
+	<div id = "heeJoin">
+		<form action>
+	    		<table border="1" align="center" bgcolor=white>
+		        	<tr>
+    	    	    <td colspan="2" align="center" bgcolor="#6485b1"><b>회원가입</b></td>
+	        	</tr>
+	 
+	        	<tr>
+	            	<td align="center"><b>ID</b></td>
+ 	           	<td><input type="text"  size="21" maxlength="12" id="id" placeholder="8~12자의 숫자, 대소문자"></input></td>
+ 		       	</tr>
+ 
+		        <tr>
+	    	        <td align="center"><b>PW</b></td>
+	 		        <td><input type="password" size="21" maxlength="12" id="pw1" placeholder="8~12자의 숫자, 대소문자"></input></td>
+		        </tr>
+	 
+		        <tr>
+		            <td align="center"><b>PW 확인</b></td>
+		            <td><input type="password" size="21" maxlength="12" id="pw2" placeholder="확인위해 다시 입력"></td>
+		        </tr>
+
+				<tr>
+            	<td align="center"><b>이름</b></td>
+            	<td><input type="text" size="21" id="name"></input></td>
+        		</tr>
+
+				<tr>
+					<td align="center"><b>나이</b></td>
+					<td align="center">
+						<input type="radio" name="age">미성년자
+						<input type="radio" name="age" checked>성인
+					</td>
+				</tr>
+
+				<tr>
+					<td align="center"><b>가입 경로</b></td>
+					<td align="center">
+						<select>
+							<option>매장 방문</option>
+							<option>지인 소개</option>
+							<option>인터넷 검색</option>
+							<option>광고</option>
+							<option>기타</option>
+						  </select>						
+					</td>
+				</tr>
+				</table>
+			</br>
+
+	    <p align="center">
+	        <input type="submit" name="submit" id="signed" value="가입"></input> <!--가입 미구현, 가입버튼 누를 시 자바스크립트 함수 호출(alert)-->
+	        <input type="reset" name="reset" value="초기화"></input>
+	    </p>
+	</form>
+	</div>
+	</div>
+	<script src="join.js"></script> <!--자바스크립트 파일 연동-->
+</body>
+</html>

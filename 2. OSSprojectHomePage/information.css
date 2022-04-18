@@ -1,0 +1,66 @@
+*{margin: 0px; padding: 0px;}
+ul{
+	list-style:none;
+}
+
+a{
+	text-decoration: none;
+}
+
+header{
+	width: 900px;
+	height:76px;
+	background-color:#181a33;
+	position: relative;
+}
+
+#logo{
+	position:absolute;
+	left:40px;
+	top:13px;
+}
+
+#topMenu{
+	position: absolute;
+	top: 20px;
+	right:55px;
+	color: white;
+	font-size: 18px;
+	font-family: papyrus,Arial;
+}
+
+#topMenu a{color: white; margin-left: 40px; }
+
+.box{width:15px; height:15px; position:absolute; margin-top:300px; margin-left:55%;}
+.box:nth-child(1){background-color:rebeccapurple; left:20px; top:40px; z-index:1;}
+.box:nth-child(2){background-color:rebeccapurple; left:20px; top:20px; z-index:1;}
+.box:nth-child(3){background-color:rebeccapurple; left:30px; top:30px; z-index:1;}
+.box:nth-child(4){background-color:rebeccapurple; left:10px; top:30px; z-index:1;}
+.box:nth-child(5){background-color:goldenrod; left:20px; top:30px; z-index:1;}
+
+#year{
+	position: absolute;
+	margin-left:100px;
+	color:black;
+	padding-top:15px;
+}
+
+#img_me{
+	margin-left:560px;
+	padding-bottom:70px;
+}
+
+#comment{
+	position: absolute;
+	margin-left:100px;
+	color:black;
+	margin-top:40px;
+}
+
+#info{
+	padding-top:60px;
+	width: 900px;
+	background-color:#f3f3f3;
+	height:800px;
+}
+#page{width: 820px;margin:0px auto;}
