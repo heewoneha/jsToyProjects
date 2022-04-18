@@ -2,6 +2,7 @@
 
 1. Drum Sequencer (Codeit jQuery 과제 변형, used jQuery)
 > 코드잇 jQuery 강좌의 과제. 매우 간단한 드럼 시퀀서
+
 ![image](https://user-images.githubusercontent.com/74031620/163806257-14905d36-89dc-4a6b-b0f3-2f1e1dbab9fa.png)
 
 2. CBNU OSS 기초프로젝트 - HTML, CSS, JS 이용한 홈페이지 만들기
